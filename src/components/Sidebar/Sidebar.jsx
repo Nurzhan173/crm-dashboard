@@ -79,7 +79,7 @@ class Sidebar extends React.Component {
             target="_blank"
             onClick={this.props.toggleSidebar}
           >
-            {logo.text}
+            Jarviz.Group
           </a>
         );
       } else {
