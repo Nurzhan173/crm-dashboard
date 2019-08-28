@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/crm-dashboard/static/css/main.2cce8147.chunk.css",
-    "main.js": "/crm-dashboard/static/js/main.ac790aab.chunk.js",
-    "main.js.map": "/crm-dashboard/static/js/main.ac790aab.chunk.js.map",
+    "main.css": "/crm-dashboard/static/css/main.65d8df67.chunk.css",
+    "main.js": "/crm-dashboard/static/js/main.7adff88f.chunk.js",
+    "main.js.map": "/crm-dashboard/static/js/main.7adff88f.chunk.js.map",
     "runtime~main.js": "/crm-dashboard/static/js/runtime~main.526fdc8e.js",
     "runtime~main.js.map": "/crm-dashboard/static/js/runtime~main.526fdc8e.js.map",
-    "static/js/2.2ec68ce9.chunk.js": "/crm-dashboard/static/js/2.2ec68ce9.chunk.js",
-    "static/js/2.2ec68ce9.chunk.js.map": "/crm-dashboard/static/js/2.2ec68ce9.chunk.js.map",
+    "static/js/2.12c6de10.chunk.js": "/crm-dashboard/static/js/2.12c6de10.chunk.js",
+    "static/js/2.12c6de10.chunk.js.map": "/crm-dashboard/static/js/2.12c6de10.chunk.js.map",
     "index.html": "/crm-dashboard/index.html",
-    "precache-manifest.5a5daa9496fe5c922cbc95f40bace165.js": "/crm-dashboard/precache-manifest.5a5daa9496fe5c922cbc95f40bace165.js",
+    "precache-manifest.81134afed6232d91515918d2eb565792.js": "/crm-dashboard/precache-manifest.81134afed6232d91515918d2eb565792.js",
     "service-worker.js": "/crm-dashboard/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/crm-dashboard/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/crm-dashboard/static/media/logo.5d5d9eef.svg"
+    "static/css/main.65d8df67.chunk.css.map": "/crm-dashboard/static/css/main.65d8df67.chunk.css.map",
+    "static/media/anime3.png": "/crm-dashboard/static/media/anime3.bd6820f1.png",
+    "static/media/emilyz.jpg": "/crm-dashboard/static/media/emilyz.9fcf69e5.jpg",
+    "static/media/nucleo-icons.css": "/crm-dashboard/static/media/nucleo.f0b489a5.woff",
+    "static/media/react-logo.png": "/crm-dashboard/static/media/react-logo.eb6be414.png"
   }
 }
