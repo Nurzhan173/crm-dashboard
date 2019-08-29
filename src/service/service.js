@@ -5,7 +5,9 @@ export default class Service {
     data: null
   }
 
-    let response =  fetch('https://djangorestcarwash.herokuapp.com/api/test/Wash/',
+  async function getRes() {
+
+    let response = await fetch('https://djangorestcarwash.herokuapp.com/api/test/Wash/',
     {
       method: 'GET',
       headers:{
@@ -14,10 +16,10 @@ export default class Service {
     }).then(res => res.json())
     .then(response => console.log('Успех:', JSON.stringify(response)))
     .then((response) => {
-      this.setState({ data: response });
+      this.setState({ data: response })
     })
     .catch(error => console.error('Ошибка:', error));
-
+  }
 
 
 }
