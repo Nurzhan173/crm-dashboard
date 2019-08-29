@@ -80,7 +80,7 @@ let chartExample1 = {
 
     return {
       labels: [
-
+        "JUN",
         "FEB",
         "MAR",
         "APR",
