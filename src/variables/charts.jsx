@@ -1,19 +1,19 @@
-async function getRes(id) {
-
-  let response = await fetch('https://djangorestcarwash.herokuapp.com/api/test/Wash/',
-  {
-    method: 'GET',
-    headers:{
-      'Content-Type': 'application/json'
-    }
-  }).then(res => res.json())
-  .then(response => console.log(JSON.stringify(response[id])))
-  .catch(error => console.error('Ошибка:', error));
-
-  return response;
-}
-
-getRes(0); // Февраль 
+// async function getRes(id) {
+//
+//   let response = await fetch('https://djangorestcarwash.herokuapp.com/api/test/Wash/',
+//   {
+//     method: 'GET',
+//     headers:{
+//       'Content-Type': 'application/json'
+//     }
+//   }).then(res => res.json())
+//   .then(response => console.log(JSON.stringify(response[id])))
+//   .catch(error => console.error('Ошибка:', error));
+//
+//   return response;
+// }
+//
+// getRes(0); // Февраль
 
 let chart1_2_options = {
   maintainAspectRatio: false,
