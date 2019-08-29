@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/crm-dashboard/static/css/main.65d8df67.chunk.css",
-    "main.js": "/crm-dashboard/static/js/main.073ae83e.chunk.js",
-    "main.js.map": "/crm-dashboard/static/js/main.073ae83e.chunk.js.map",
+    "main.js": "/crm-dashboard/static/js/main.61c54e10.chunk.js",
+    "main.js.map": "/crm-dashboard/static/js/main.61c54e10.chunk.js.map",
     "runtime~main.js": "/crm-dashboard/static/js/runtime~main.526fdc8e.js",
     "runtime~main.js.map": "/crm-dashboard/static/js/runtime~main.526fdc8e.js.map",
     "static/js/2.12c6de10.chunk.js": "/crm-dashboard/static/js/2.12c6de10.chunk.js",
     "static/js/2.12c6de10.chunk.js.map": "/crm-dashboard/static/js/2.12c6de10.chunk.js.map",
     "index.html": "/crm-dashboard/index.html",
-    "precache-manifest.c3d3cd02cbb2e8f0289bd24c80a24b8e.js": "/crm-dashboard/precache-manifest.c3d3cd02cbb2e8f0289bd24c80a24b8e.js",
+    "precache-manifest.0ffbeae99d7b46ae8599ea4dadc88a4b.js": "/crm-dashboard/precache-manifest.0ffbeae99d7b46ae8599ea4dadc88a4b.js",
     "service-worker.js": "/crm-dashboard/service-worker.js",
     "static/css/main.65d8df67.chunk.css.map": "/crm-dashboard/static/css/main.65d8df67.chunk.css.map",
     "static/media/anime3.png": "/crm-dashboard/static/media/anime3.bd6820f1.png",

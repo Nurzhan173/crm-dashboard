@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f3f39e0237afe51596685cddf96832cc",
+    "revision": "f6b8452fc6a2e3fd1083d4a5d73c1397",
     "url": "/crm-dashboard/index.html"
   },
   {
-    "revision": "d4e8090d556b269b3ede",
+    "revision": "337553b2215f30b2504b",
     "url": "/crm-dashboard/static/css/main.65d8df67.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/crm-dashboard/static/js/2.12c6de10.chunk.js"
   },
   {
-    "revision": "d4e8090d556b269b3ede",
-    "url": "/crm-dashboard/static/js/main.073ae83e.chunk.js"
+    "revision": "337553b2215f30b2504b",
+    "url": "/crm-dashboard/static/js/main.61c54e10.chunk.js"
   },
   {
     "revision": "4240707f961234b3a2af",
