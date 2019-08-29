@@ -1,25 +1,20 @@
-/*!
+async function getRes(id) {
 
-=========================================================
-* Black Dashboard React v1.0.0
-=========================================================
+  let response = await fetch('https://djangorestcarwash.herokuapp.com/api/test/Wash/',
+  {
+    method: 'GET',
+    headers:{
+      'Content-Type': 'application/json'
+    }
+  }).then(res => res.json())
+  .then(response => console.log(JSON.stringify(response[id])))
+  .catch(error => console.error('Ошибка:', error));
 
-* Product Page: https://www.creative-tim.com/product/black-dashboard-react
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/black-dashboard-react/blob/master/LICENSE.md)
+  return response;
+}
 
-* Coded by Creative Tim
+getRes(0); // Февраль 
 
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
-// ##############################
-// // // Chart variables
-// #############################
-
-// chartExample1 and chartExample2 options
 let chart1_2_options = {
   maintainAspectRatio: false,
   legend: {
@@ -85,7 +80,7 @@ let chartExample1 = {
 
     return {
       labels: [
-        "JAN",
+
         "FEB",
         "MAR",
         "APR",
@@ -114,7 +109,7 @@ let chartExample1 = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [100, 70, 90, 70, 85, 60, 75, 60, 90, 80, 110, 100]
+          data: [0, 70, 90, 70, 85, 60, 75, 60, 90, 80, 110, 100] //main table
         }
       ]
     };

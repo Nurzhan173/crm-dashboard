@@ -27,9 +27,13 @@ import PerfectScrollbar from "perfect-scrollbar";
 // reactstrap components
 import { Nav } from "reactstrap";
 
+// import Service from '../../service/service';
+
 var ps;
 
 class Sidebar extends React.Component {
+  // service = new Service();
+
   constructor(props) {
     super(props);
     this.activeRoute.bind(this);
